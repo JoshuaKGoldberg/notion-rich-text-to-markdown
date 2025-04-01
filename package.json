@@ -1,6 +1,6 @@
 {
 	"name": "notion-rich-text-to-markdown",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Converts Notion's rich text strings to Markdown. 🪢",
 	"repository": {
 		"type": "git",
