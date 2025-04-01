@@ -1,6 +1,9 @@
 <h1 align="center">Notion Rich Text to Markdown</h1>
 
-<p align="center">Converts Notion's rich text strings to Markdown. 🪢</p>
+<p align="center">
+	Converts Notion's rich text strings to Markdown.
+	🪢
+</p>
 
 <p align="center">
 	<!-- prettier-ignore-start -->
@@ -10,8 +13,8 @@
 	<!-- prettier-ignore-end -->
 	<a href="https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank"><img alt="🤝 Code of Conduct: Kept" src="https://img.shields.io/badge/%F0%9F%A4%9D_code_of_conduct-kept-21bb42" /></a>
 	<a href="https://codecov.io/gh/JoshuaKGoldberg/notion-rich-text-to-markdown" target="_blank"><img alt="🧪 Coverage" src="https://img.shields.io/codecov/c/github/JoshuaKGoldberg/notion-rich-text-to-markdown?label=%F0%9F%A7%AA%20coverage" /></a>
-	<a href="https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg"></a>
-	<a href="http://npmjs.com/package/notion-rich-text-to-markdown"><img alt="📦 npm version" src="https://img.shields.io/npm/v/notion-rich-text-to-markdown?color=21bb42&label=%F0%9F%93%A6%20npm" /></a>
+	<a href="https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/blob/main/LICENSE.md" target="_blank"><img alt="📝 License: MIT" src="https://img.shields.io/badge/%F0%9F%93%9D_license-MIT-21bb42.svg" /></a>
+	<a href="http://npmjs.com/package/notion-rich-text-to-markdown" target="_blank"><img alt="📦 npm version" src="https://img.shields.io/npm/v/notion-rich-text-to-markdown?color=21bb42&label=%F0%9F%93%A6%20npm" /></a>
 	<img alt="💪 TypeScript: Strict" src="https://img.shields.io/badge/%F0%9F%92%AA_typescript-strict-21bb42.svg" />
 </p>
 
@@ -39,6 +42,11 @@ notionRichTextToMarkdown({
 `notionRichTextToMarkdown` accepts an object like data in [Notion's Rich Text API response](https://developers.notion.com/reference/rich-text).
 That shape is described by the `RichTextItemResponse` in `@notionhq/client`.
 
+## Development
+
+See [`.github/CONTRIBUTING.md`](./.github/CONTRIBUTING.md), then [`.github/DEVELOPMENT.md`](./.github/DEVELOPMENT.md).
+Thanks! 🪢
+
 ## Contributors
 
 <!-- spellchecker: disable -->
@@ -60,6 +68,4 @@ That shape is described by the `RichTextItemResponse` in `@notionhq/client`.
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- spellchecker: enable -->
 
-<!-- You can remove this notice if you don't want it 🙂 no worries! -->
-
-> 💙 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app).
+> 💝 This package was templated with [`create-typescript-app`](https://github.com/JoshuaKGoldberg/create-typescript-app) using the [Bingo engine](https://create.bingo).
