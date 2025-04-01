@@ -1,6 +1,7 @@
 {
-	"dictionaries": ["typescript"],
+	"dictionaries": ["npm", "node", "typescript"],
 	"ignorePaths": [
+		".all-contributorsrc",
 		".github",
 		"CHANGELOG.md",
 		"coverage",
@@ -10,9 +11,9 @@
 	],
 	"words": [
 		"Dimitri",
+		"Mitropoulos",
 		"dimitropoulos",
 		"knip",
-		"Mitropoulos",
 		"notionhq",
 		"packagejson",
 		"tseslint",

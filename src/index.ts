@@ -14,6 +14,12 @@ export interface RichTextItemResponseLike {
 	plain_text: string;
 }
 
+export function notionRichTextToMarkdown(item: RichTextItemResponseLike) {
+	const value = escapeMarkdown(processAnnotations(item));
+
+	return item.href ? `[${value}](${item.href})` : value;
+}
+
 function escapeMarkdown(text: string) {
 	return text
 		.replaceAll("(", "\\(")
@@ -43,10 +49,4 @@ function processAnnotations(item: RichTextItemResponseLike) {
 	}
 
 	return text;
-}
-
-export function notionRichTextToMarkdown(item: RichTextItemResponseLike) {
-	const value = escapeMarkdown(processAnnotations(item));
-
-	return item.href ? `[${value}](${item.href})` : value;
 }
