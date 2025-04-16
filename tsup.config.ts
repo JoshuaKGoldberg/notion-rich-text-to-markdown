@@ -1362,6 +1362,7 @@ export default defineConfig({
 		"src/**/*.ts",
 		"src/**/*.ts",
 		"src/**/*.ts",
+		"src/**/*.ts",
 		"!src/**/*.test.*",
 	],
 	format: "esm",
