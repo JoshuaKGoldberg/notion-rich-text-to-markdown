@@ -2,21 +2,31 @@
 	"dictionaries": ["npm", "node", "typescript"],
 	"ignorePaths": [
 		".all-contributorsrc",
-		".github",
 		"CHANGELOG.md",
 		"coverage",
+		"dist",
 		"lib",
 		"node_modules",
 		"pnpm-lock.yaml"
 	],
 	"words": [
 		"Dimitri",
+		"JoshuaKGoldberg",
+		"MatteoGabriele",
 		"Mitropoulos",
+		"agentscan",
+		"apexskier",
 		"dimitropoulos",
 		"knip",
+		"mshick",
 		"notionhq",
+		"octoguide",
 		"packagejson",
+		"peakoss",
+		"stefanzweifel",
 		"tseslint",
-		"tsup"
+		"tsup",
+		"zizmor",
+		"zizmorcore"
 	]
 }

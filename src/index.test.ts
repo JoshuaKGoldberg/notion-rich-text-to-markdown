@@ -1,8 +1,8 @@
 import { describe, expect, test } from "vitest";
 
-import { notionRichTextToMarkdown } from "./index.js";
+import { notionRichTextToMarkdown } from "./index.ts";
 
-describe("notionRichTextToMarkdown", () => {
+describe(notionRichTextToMarkdown, () => {
 	test.each([
 		[{ plain_text: "" }, ""],
 		[{ plain_text: "Hello, world!" }, "Hello, world!"],

@@ -6,7 +6,7 @@
 
 - bump to create-typescript-app@2 with transitions action ([#389](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/issues/389)) ([eadb1e6](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/commit/eadb1e683971b71f72b8e0c50a192a234626479f)), closes [#373](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/issues/373)
 
-# 0.1.0 (2024-08-14)
+## 0.1.0 (2024-08-14)
 
 ### Features
 
