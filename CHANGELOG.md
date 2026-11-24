@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/compare/0.1.1...0.1.2) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#788](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/issues/788)) ([95c8b47](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/commit/95c8b47833dc33c6cef1c9d771184a9a9a896288)), closes [#787](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/issues/787)
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/notion-rich-text-to-markdown/compare/0.1.0...0.1.1) (2025-04-01)
 
 ### Bug Fixes
